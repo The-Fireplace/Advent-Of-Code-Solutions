@@ -7,7 +7,6 @@ foreach($lines as $lineNum1 => $line1){
 			$changecount = 0;
 			$outstr = [];
 			foreach(str_split($line1) as $index => $char1){
-				//echo $char1.' '.$line2[$index].'<br>';
 				if($char1 == $line2[$index])
 					$outstr[] = $char1;
 				else
